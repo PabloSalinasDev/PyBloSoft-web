@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="es" class="dark" style="background-color: #020617;">
+<head>
+    <script>
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-PFBRGDL6');
+            }, 1000); 
+        });
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="alternate" hreflang="en" href="https://pyblosoft.com/" />
+    <link rel="alternate" hreflang="es" href="https://pyblosoft.com/es/" />
+    <link rel="alternate" hreflang="x-default" href="https://pyblosoft.com/" />
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://pyblosoft.com/es/" />
+
+    <title>Generador de contraseñas seguras | Privacidad Offline - Shanbit</title>
+
+    <meta name="description" content="Shanbit es el mejor generador de contraseñas seguras para Windows. 100% offline, CSPRNG, generador de claves y frases Diceware. Sin rastros, privacidad total.">
+
+    <meta name="keywords" content="generador de contraseñas seguras, generar una contraseña, generador de claves, crear contraseñas, generar contraseñas, generar contraseña seguras, contraseña seguras, privacidad, seguridad y privacidad">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Shanbit – Generador de contraseñas seguras | 100% Offline">
+    <meta property="og:description" content="El generador de contraseñas seguras más privado para Windows. Entropía CSPRNG, generador de frases Diceware y política RAM-only. Sin huella forense.">
+    <meta property="og:url" content="https://pyblosoft.com/es/">
+    <meta property="og:image" content="https://pyblosoft.com/assets/og_image.png">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <link rel="icon" type="image/png" href="/assets/Random-Password-Generator.png" sizes="512x512">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Shanbit Generador de Contraseñas Seguras",
+        "alternateName": ["Shanbit", "Shanbit Generador de Claves", "Shanbit Privacidad"],
+        "url": "https://pyblosoft.com/es/",
+        "operatingSystem": "Windows 10, Windows 11",
+        "applicationCategory": "SecurityApplication",
+        "applicationSubCategory": "Password Manager",
+        "description": "Shanbit es un generador de contraseñas seguras para Windows que opera 100% offline. Usa entropía CSPRNG y un generador de frases Diceware para crear claves inquebrantables sin dejar ningún rastro forense.",
+        "featureList": [
+            "Generador de contraseñas seguras con análisis de Entropía de Shannon",
+            "Generador de frases basado en el método Diceware",
+            "CSPRNG (Generador de números pseudoaleatorios criptográficamente seguro)",
+            "100% Offline – sin conexión a internet requerida",
+            "Política RAM-only – sin rastros en disco",
+            "Transferencia segura por código QR a dispositivos móviles",
+            "Protección automática del portapapeles"
+        ],
+        "screenshot": [
+            "https://pyblosoft.com/assets/standard-password-262bits-unbreakable.png",
+            "https://pyblosoft.com/assets/standard-password-72bits-strong.png",
+            "https://pyblosoft.com/assets/diceware-passphrase-328bits-unbreakable.png",
+            "https://pyblosoft.com/assets/diceware-passphrase-42bits-moderate.png",
+            "https://pyblosoft.com/assets/secure-qr-transfer-privacy-tool.png",
+            "https://pyblosoft.com/assets/ram-only-history-random-password-security.png"
+        ],
+        "author": {
+            "@type": "Organization",
+            "name": "PyBloSoft",
+            "url": "https://pyblosoft.com"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PyBloSoft",
+        "url": "https://pyblosoft.com",
+        "logo": "https://pyblosoft.com/assets/shanbit-random-password-generator-logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "support@pyblosoft.com",
+            "contactType": "Soporte Técnico"
+        },
+        "sameAs": [],
+        "description": "PyBloSoft es una empresa de desarrollo de software independiente especializada en herramientas de privacidad offline y software de seguridad para Windows, siguiendo una filosofía estricta de privacidad por diseño."
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Cómo generar una contraseña segura con Shanbit",
+        "description": "Guía paso a paso para crear una contraseña segura y criptográficamente robusta usando el generador de contraseñas seguras offline Shanbit para Windows.",
+        "totalTime": "PT2M",
+        "tool": {
+            "@type": "HowToTool",
+            "name": "Shanbit Generador de Contraseñas Seguras"
+        },
+        "step": [
+            {
+                "@type": "HowToStep",
+                "position": 1,
+                "name": "Descarga e instala Shanbit",
+                "text": "Obtén Shanbit desde la Microsoft Store. El generador de contraseñas seguras se instala en Windows 10 o Windows 11 y no requiere conexión a internet tras la instalación.",
+                "url": "https://www.microsoft.com/store/apps/9NR12VDV9NM5"
+            },
+            {
+                "@type": "HowToStep",
+                "position": 2,
+                "name": "Elige tu modo de generación",
+                "text": "Selecciona entre el modo generador de contraseñas seguras (CSPRNG + Entropía de Shannon) o el modo generador de frases (método Diceware con listas de palabras en inglés o español)."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 3,
+                "name": "Configura la complejidad",
+                "text": "Ajusta los conjuntos de caracteres: mayúsculas, minúsculas, números y símbolos especiales. El medidor de entropía muestra la fortaleza en bits en tiempo real para confirmar que tu contraseña segura está en el rango Inquebrantable (más de 100 bits)."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "Genera y transfiere de forma segura",
+                "text": "Haz clic en Generar. Copia tu contraseña segura al portapapeles (se borrará en 30s) o escanea el código QR para transferir la clave a tu móvil sin ninguna conexión de red."
+            },
+            {
+                "@type": "HowToStep",
+                "position": 5,
+                "name": "Cierra la app para borrar todos los rastros",
+                "text": "Al cerrar Shanbit, todo el historial de contraseñas almacenado en RAM volátil se borra instantáneamente. No quedan registros, entradas en bases de datos ni huella forense en tu disco duro."
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "¿Por qué usar un generador de contraseñas seguras que funcione offline?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Un generador de contraseñas seguras offline como Shanbit garantiza tu privacidad manteniendo los datos sensibles aislados de internet, evitando filtraciones a servidores de terceros. La mayoría de las herramientas web transmiten tus contraseñas a infraestructura remota, creando una superficie de ataque explotable. Shanbit nunca se conecta a internet, haciendo la interceptación técnicamente imposible."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "¿Cómo funciona Shanbit como generador de contraseñas seguras?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Shanbit usa el módulo secrets de Python (CSPRNG a nivel del sistema operativo) y la Entropía de Shannon para garantizar que cada contraseña segura resista los ataques de fuerza bruta modernos. La fórmula E = L x log2(R) calcula la fortaleza exacta en bits de cada clave."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "¿Shanbit incluye un generador de frases?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sí. Shanbit incluye un generador de frases basado en el método Diceware, creando claves legibles por humanos que son criptográficamente seguras y fáciles de recordar. Soporta listas de palabras en inglés y español, usando secrets.choice (CSPRNG) para garantizar que cada selección de palabra sea estadísticamente independiente."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "¿Es esta la herramienta de privacidad más segura para Windows?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Shanbit es una herramienta de privacidad dedicada con una política estricta de solo RAM. No deja huella forense en tu disco duro. El generador de contraseñas seguras almacena todo el historial exclusivamente en memoria volátil, que se borra permanentemente al cerrar el proceso. Ninguna otra herramienta de Windows combina generación offline, análisis de entropía, creación de frases y arquitectura segura en memoria en una sola aplicación."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "¿Cuál es la diferencia entre una contraseña y una frase de contraseña?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Una contraseña segura maximiza la entropía por carácter usando el conjunto completo de símbolos. Una frase de contraseña sacrifica la densidad de caracteres por memorabilidad humana — una frase Diceware de 6 palabras alcanza ~328 bits mientras sigue siendo posible de memorizar. Usa contraseñas para gestores de credenciales; usa frases para credenciales que debes escribir de memoria. El generador de claves de Shanbit soporta ambas."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "¿Cómo funciona la transferencia QR offline?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Shanbit genera un código QR que contiene tu contraseña segura como una cadena Base64 volátil renderizada completamente en RAM. Escaneas este código con la cámara de tu smartphone para transferir la clave sin usar Wi-Fi, Bluetooth, USB o cualquier protocolo de red. El payload QR existe solo durante la sesión activa y nunca se escribe en disco."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "¿Shanbit es gratuito?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Shanbit está disponible en la Microsoft Store para Windows 10 y Windows 11. Es una herramienta de privacidad premium desarrollada por PyBloSoft, una empresa de software independiente centrada en soluciones de seguridad privadas por diseño."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Inicio",
+                "item": "https://pyblosoft.com/es/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Generador de Contraseñas Seguras",
+                "item": "https://pyblosoft.com/es/"
+            }
+        ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="bg-slate-950 font-sans antialiased text-slate-200">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFBRGDL6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <nav class="bg-[#0a0f1e] border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-2 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <span class="text-xs font-bold tracking-widest uppercase text-slate-400 slate-400-fijo">PyBloSoft - Shanbit</span>
+            </div>
+            <div class="text-xs space-x-4">
+                <a href="../index.html" class="slate-400-fijo hover-cian">EN</a>
+                <a href="index.html" class="cian-400-fijo underline font-bold">ES</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+        ZONA 1 — CONVERSIÓN (30%)
+        Objetivo: usuarios ya convencidos. Cerrar rápido.
+    ============================================================ -->
+
+    <header class="max-w-4xl mx-auto px-6 pt-8 pb-6 text-center">
+
+        <img src="../assets/shanbit-random-password-generator-logo.png" alt="Shanbit – Generador de contraseñas seguras y herramienta de privacidad para Windows" class="w-24 h-24 md:w-28 md:h-28 mx-auto mb-6">
+
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight">
+            <div>Generador de Contraseñas Seguras</div>
+            <div><span class="text-2xl cian-400-fijo md:text-4xl mt-2">Sin Rastros. 100% Offline.</span></div>
+        </h1>
+
+        <p class="text-lg slate-300-fijo mt-6 mb-8 leading-relaxed max-w-lg mx-auto">
+            El único <strong>generador de contraseñas seguras</strong> que nunca toca internet.
+            Sin servidor. Sin cuenta. Sin historial de navegador. Cada <strong>contraseña segura</strong> y aleatoria creada — vive exclusivamente en RAM — y desaparece cuando cierras la app.
+        </p>
+
+        <!-- CTA Principal -->
+        <div class="flex justify-center py-2 mb-6">
+            <a href="https://www.microsoft.com/store/apps/9NR12VDV9NM5" target="_blank" rel="noopener" class="transition-transform hover:scale-105">
+                <img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Download Shanbit Random Password Generator from Microsoft Store" class="h-14">
+            </a>
+        </div>
+
+        <!-- Bloque AEO de respuesta rápida -->
+        <div class="px-6 py-2 max-w-2xl mx-auto mb-6 text-left">
+            <h2 class="text-2xl cian-400-fijo font-bold uppercase tracking-widest mb-2">¿Qué es Shanbit?</h2>
+            <p class="slate-300-fijo text-base leading-relaxed">
+                Shanbit es un <strong>generador de contraseñas seguras</strong> para Windows que opera 100% offline. Usa <strong>CSPRNG</strong> y <strong>Entropía de Shannon</strong> para crear <strong>contraseñas seguras con caracteres aleatorios</strong> y <strong>contraseñas de frases Diceware</strong> matemáticamente inquebrantables, almacenando todos los datos exclusivamente en RAM — sin rastros en disco.
+            </p>
+        </div>
+
+        <!-- Tabla comparativa — activo de conversión -->
+        <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-6 max-w-3xl mx-auto text-left mb-4">
+            <h2 class="text-base font-bold uppercase tracking-widest cian-400-fijo mb-5" style="text-align:left!important">Shanbit vs. Generadores de Contraseñas Online Gratuitos</h2>
+            <div class="grid grid-cols-2 gap-6 text-sm">
+                <div>
+                    <h3 class="font-bold slate-400-fijo mb-3 uppercase tracking-wide text-xs">Herramientas Online Gratuitas</h3>
+                    <ul class="slate-500-fijo space-y-2">
+                        <li>✗ Contraseñas enrutadas por servidores remotos</li>
+                        <li>✗ Vulnerables a XSS e interceptación de red</li>
+                        <li>✗ El historial del navegador registra cada generación</li>
+                        <li>✗ Sin entropía verificable — confías en su afirmación</li>
+                        <li>✗ Sin generador de frases Diceware</li>
+                        <li>✗ El portapapeles nunca se borra automáticamente</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold cian-400-fijo mb-3 uppercase tracking-wide text-xs">Shanbit Offline</h3>
+                    <ul class="slate-400-fijo space-y-2">
+                        <li>✓ 100% air-gapped — sin internet, nunca</li>
+                        <li>✓ CSPRNG — aleatoriedad criptográficamente verificada</li>
+                        <li>✓ Solo RAM — sin rastros en disco al salir</li>
+                        <li>✓ Medidor de Entropía de Shannon: ve la fortaleza real</li>
+                        <li>✓ Generador de frases Diceware incluido</li>
+                        <li>✓ Borrado automático del portapapeles en hilo secundario</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 pb-24">
+
+        <!-- ============================================================
+            ZONA 2 — AUTORIDAD (50%)
+            Objetivo: escépticos. Convencer con precisión técnica.
+        ============================================================ -->
+
+        <div class="text-center mb-12 pt-4">
+            <h2 class="text-2xl font-bold uppercase tracking-widest cian-500-fijo mb-4">Por Qué Shanbit Es el Mejor Generador de Contraseñas Seguras</h2>
+            <p class="slate-400-fijo max-w-2xl mx-auto text-base">La mayoría de los <strong>generadores de contraseñas</strong> hacen afirmaciones de seguridad sin evidencia. Shanbit expone las matemáticas para que puedas verificar cada afirmación tú mismo.</p>
+        </div>
+
+        <!-- Autoridad: tabla de entropía -->
+        <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 max-w-3xl mx-auto mb-10">
+            <h3 class="text-lg font-bold cian-400-fijo mb-2">¿Qué significa realmente "contraseña segura"?</h3>
+            <p class="slate-400-fijo text-sm leading-relaxed mb-5">
+                Todo <strong>generador de contraseñas</strong> afirma producir una <strong>contraseña segura</strong>. Shanbit es la única herramienta offline que te permite verificar la fortaleza usando el estándar criptográfico: la <strong>Entropía de Shannon</strong>, medida en bits.
+            </p>
+            <div class="bg-slate-950 rounded-lg p-5 mb-5 text-center">
+                <span class="italic cian-400-fijo" style="font-size: 1.5rem; font-family: serif;">E = L × log₂ (R)</span>
+                <p class="text-xs slate-500-fijo mt-2">E = bits de entropía · L = longitud de la contraseña · R = tamaño del conjunto de caracteres</p>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full text-sm text-left border-collapse">
+                    <thead>
+                        <tr class="border-b border-slate-700">
+                            <th class="py-2 pr-4 slate-400-fijo font-semibold">Tipo de Contraseña</th>
+                            <th class="py-2 pr-4 slate-400-fijo font-semibold">Longitud</th>
+                            <th class="py-2 pr-4 slate-400-fijo font-semibold">Entropía (bits)</th>
+                            <th class="py-2 slate-400-fijo font-semibold">Nivel</th>
+                        </tr>
+                    </thead>
+                    <tbody class="slate-500-fijo">
+                        <tr class="border-b border-slate-800">
+                            <td class="py-2 pr-4">Solo dígitos</td>
+                            <td class="py-2 pr-4">4 chars</td>
+                            <td class="py-2 pr-4">13 bits</td>
+                            <td class="py-2 text-red-400 font-bold">Débil</td>
+                        </tr>
+                        <tr class="border-b border-slate-800">
+                            <td class="py-2 pr-4">Letras minúsculas</td>
+                            <td class="py-2 pr-4">10 chars</td>
+                            <td class="py-2 pr-4">47 bits</td>
+                            <td class="py-2 text-orange-400 font-bold">Moderada</td>
+                        </tr>
+                        <tr class="border-b border-slate-800">
+                            <td class="py-2 pr-4">Mayúsculas + minúsculas + números</td>
+                            <td class="py-2 pr-4">12 chars</td>
+                            <td class="py-2 pr-4">71 bits</td>
+                            <td class="py-2 text-yellow-400 font-bold">Fuerte</td>
+                        </tr>
+                        <tr class="border-b border-slate-800">
+                            <td class="py-2 pr-4">Pool completo (May. + min. + núm. + símbolos)</td>
+                            <td class="py-2 pr-4">16 chars</td>
+                            <td class="py-2 pr-4">104 bits</td>
+                            <td class="py-2 emerald-400-fijo font-bold">Inquebrantable</td>
+                        </tr>
+                        <tr class="border-b border-slate-800">
+                            <td class="py-2 pr-4">Pool completo (May. + min. + núm. + símbolos)</td>
+                            <td class="py-2 pr-4">40 chars</td>
+                            <td class="py-2 pr-4">262 bits</td>
+                            <td class="py-2 emerald-400-fijo font-bold">Inquebrantable</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-4">Frase Diceware</td>
+                            <td class="py-2 pr-4">6 palabras</td>
+                            <td class="py-2 pr-4">287 bits</td>
+                            <td class="py-2 emerald-400-fijo font-bold">Inquebrantable</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-xs slate-600-fijo mt-4">La entropía por encima de 100 bits es computacionalmente inviable de descifrar con hardware actual o futuro, incluidos clústeres de GPU.</p>
+        </div>
+
+        <!-- Autoridad: Por qué los generadores online no son verificables -->
+        <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 max-w-3xl mx-auto mb-10">
+            <h3 class="text-lg font-bold cian-400-fijo mb-3">Por Qué los Generadores de Contraseñas Gratuitos Ponen Tus Datos en Riesgo</h3>
+            <p class="slate-400-fijo text-sm leading-relaxed mb-4">
+                Cuando un <strong>generador de contraseñas</strong> web afirma usar "aleatoriedad criptográfica", no tienes forma de verificarlo. El JavaScript en tu navegador podría estar usando <code>Math.random()</code> — un PRNG no criptográfico — en lugar de <code>crypto.getRandomValues()</code>. No puedes inspeccionar la lógica del servidor. No puedes confirmar que tu <strong>contraseña segura</strong> no fue registrada.
+            </p>
+            <p class="slate-400-fijo text-sm leading-relaxed mb-4">
+                El <strong>generador de contraseñas seguras</strong> de Shanbit usa el módulo <code>secrets</code> de Python, que envuelve <code>CryptGenRandom</code> en Windows — la misma fuente de entropía a nivel del sistema operativo usada para generar certificados TLS. La <strong>contraseña segura</strong> que produce Shanbit es verificablemente aleatoria.
+            </p>
+            <p class="slate-400-fijo text-sm leading-relaxed">
+                Todo <strong>generador de contraseñas</strong> web también deja rastros forenses: caché del navegador, historial de navegación, registros de red del ISP y potencialmente registros de acceso del servidor. Shanbit no deja ninguno — porque no hay pila de red involucrada.
+            </p>
+        </div>
+
+        <!-- Autoridad: Contraseña vs Frase -->
+        <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-8 max-w-3xl mx-auto mb-14">
+            <h3 class="text-lg font-bold cian-400-fijo mb-3">Generador de Contraseñas Seguras vs. Generador de Frases — ¿Cuál Usar?</h3>
+            <p class="slate-400-fijo text-sm leading-relaxed mb-4">
+                Una <strong>contraseña segura</strong> (ej., <code class="text-xs">kR#7mZ@qL2!x</code>) empaqueta la máxima entropía en el mínimo de caracteres. Ideal para gestores de credenciales donde nunca escribes la <strong>clave</strong> manualmente.
+            </p>
+            <p class="slate-400-fijo text-sm leading-relaxed mb-4">
+                Una frase generada con Diceware (ej., <code class="text-xs">caballo-correcto-bateria-grapa-lampara</code>) sacrifica la densidad de caracteres por la memorabilidad humana. Una frase de 6 palabras proporciona ~287 bits de entropía — equivalente a una <strong>contraseña segura</strong> de 50 caracteres completamente aleatoria — pero posible de recordar sin anotarla.
+            </p>
+            <p class="slate-400-fijo text-sm leading-relaxed">
+                El <strong>generador de claves</strong> de Shanbit soporta listas de palabras en inglés y español. Cada palabra es seleccionada por <code>secrets.choice</code> — estadísticamente independiente de todas las selecciones anteriores. Esta es la diferencia técnica entre un <strong>generador de contraseñas seguras</strong> real y una herramienta que simplemente muestrea entradas adyacentes del diccionario.
+            </p>
+        </div>
+
+        <!-- Features -->
+        <div class="text-center mb-10">
+            <h2 class="text-2xl font-bold uppercase tracking-widest cian-500-fijo mb-3">Cómo Este Generador de Contraseñas Seguras Protege Tu Privacidad</h2>
+            <p class="slate-400-fijo text-base max-w-xl mx-auto">Cada función de este <strong>generador de contraseñas seguras</strong> cierra un vector de ataque específico.</p>
+        </div>
+
+        <div class="feature-card p-8 mb-8 rounded-2xl flex flex-col h-full">
+            <div class="mb-6 flex-grow">
+                <h3 class="text-xl font-bold mb-4 emerald-400-fijo">1. Generador de Contraseñas Seguras (CSPRNG + Entropía)</h3>
+                <p class="slate-400-fijo text-sm mb-4">
+                    Cada <strong>contraseña segura</strong> es generada mediante el módulo <code>secrets</code> de Python (CSPRNG a nivel del SO). El medidor de entropía en tiempo real aplica E = L × log₂(R) para mostrar tu fortaleza exacta en bits antes de usar la <strong>contraseña</strong>.
+                </p>
+                <ul class="text-sm slate-500-fijo space-y-2">
+                    <li>• Retroalimentación cromática: Débil / Moderada / Fuerte / Inquebrantable (&gt;100 bits)</li>
+                    <li>• Control granular del conjunto de caracteres: símbolos, números, mayúsculas</li>
+                    <li>• Sin longitud mínima impuesta — el medidor de entropía te guía</li>
+                </ul>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 mb-1">
+                <img src="../assets/generador-contrasena-77bits-fuerte.png" alt="Shanbit generador de contraseñas seguras — 15 caracteres, 77 bits, Seguridad: Fuerte" class="rounded-lg border border-slate-800 w-full object-cover">
+                <img src="../assets/generador-contrasena-262bits-impenetrable.png" alt="Shanbit generador de contraseñas seguras — 40 caracteres, 262 bits, Seguridad: Inquebrantable" class="rounded-lg border border-slate-800 w-full object-cover">
+            </div>
+        </div>
+
+        <div class="feature-card p-8 mb-8 rounded-2xl flex flex-col h-full">
+            <div class="mb-6 flex-grow">
+                <h3 class="text-xl font-bold mb-4 emerald-400-fijo">2. Generador de Frases (Diceware)</h3>
+                <p class="slate-400-fijo text-sm mb-4">
+                    El <strong>generador de claves</strong> incluido usa el estándar Diceware con listas de palabras en inglés y español. Cada palabra es seleccionada por <code>secrets.choice</code> — respaldado por CSPRNG, estadísticamente independiente.
+                </p>
+                <ul class="text-sm slate-500-fijo space-y-2">
+                    <li>• Frase de 6 palabras ≈ 287 bits de entropía</li>
+                    <li>• Listas de palabras en inglés y español disponibles</li>
+                    <li>• Mismo núcleo CSPRNG que el generador de contraseñas seguras</li>
+                </ul>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 mb-1">
+                <img src="../assets/generador-frase-65bits-medio.png" alt="Shanbit generador de frases — 2 palabras, 65 bits, Seguridad: Moderada" class="rounded-lg border border-slate-800 w-full object-cover">
+                <img src="../assets/generador-frase-287bits-impenetrable.png" alt="Shanbit generador de frases — 6 palabras, 287 bits, Seguridad: Inquebrantable" class="rounded-lg border border-slate-800 w-full object-cover">
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 items-stretch mb-14">
+            <div class="feature-card p-8 rounded-2xl flex flex-col h-full">
+                <div class="mb-6 flex-grow">
+                    <h3 class="text-xl font-bold mb-4 emerald-400-fijo">3. Transferencia QR Offline</h3>
+                    <p class="slate-400-fijo text-sm mb-4">
+                        Transfiere tu <strong>contraseña segura</strong> o frase a un smartphone usando solo luz. Sin Wi-Fi, Bluetooth, USB ni NFC. El payload QR es una cadena Base64 volátil renderizada en RAM — nunca escrita en disco.
+                    </p>
+                    <ul class="text-sm slate-500-fijo space-y-2">
+                        <li>• Escanea con cualquier app de cámara estándar — sin app complementaria</li>
+                        <li>• Payload destruido al cerrar la ventana del <strong>generador de contraseñas</strong></li>
+                        <li>• Sin protocolo de red involucrado en ningún momento</li>
+                    </ul>
+                </div>
+                <img src="../assets/transferencia-qr-seguridad-y-privacidad-offline.png" alt="Transferencia QR offline en Shanbit para transferir contraseñas seguras al móvil sin internet" class="mt-auto rounded-lg border border-slate-800 w-full object-cover">
+            </div>
+            <div class="feature-card p-8 rounded-2xl flex flex-col h-full">
+                <div class="mb-6 flex-grow">
+                    <h3 class="text-xl font-bold mb-4 emerald-400-fijo">4. Gestión de RAM a Nivel de Hilo</h3>
+                    <p class="slate-400-fijo text-sm mb-4">
+                        Shanbit gestiona la memoria volátil en cada operación. El historial de <strong>contraseñas</strong> permanece solo en RAM. Un hilo secundario borra el portapapeles. Al salir, todos los datos de sesión son eliminados — sin SQLite, sin entradas de registro, sin archivos temporales.
+                    </p>
+                    <ul class="text-sm slate-500-fijo space-y-2">
+                        <li>• Sin huella forense en disco</li>
+                        <li>• Portapapeles borrado automáticamente (se borrará en 30s)</li>
+                        <li>• Aislamiento de proceso: sin registros persistentes a nivel del SO</li>
+                    </ul>
+                </div>
+                <img src="../assets/privacidad-memoria-ram-crear-contrasenas.png" alt="Gestión de historial en RAM volátil en Shanbit generador de contraseñas seguras para máxima privacidad" class="mt-auto rounded-lg border border-slate-800 w-full object-cover">
+            </div>
+        </div>
+
+        <!-- Cómo usar -->
+        <section class="max-w-4xl mx-auto px-6 py-2 mb-6">
+            <h2 class="text-2xl font-bold cian-400-fijo mb-2 text-center">Cómo Generar una Contraseña Segura con Shanbit</h2>
+            <p class="slate-400-fijo text-base text-center mb-8">Cinco pasos. Menos de dos minutos. Sin internet en ningún momento.</p>
+            <div class="space-y-3">
+                <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-5 flex gap-4 items-center">
+                    <span class="text-2xl font-extrabold cian-400-fijo leading-none w-6 shrink-0">1</span>
+                    <div>
+                        <h3 class="font-bold slate-300-fijo mb-1 text-sm">Descarga desde la Microsoft Store</h3>
+                        <p class="slate-500-fijo text-xs">Se instala en Windows 10 y Windows 11. Binario autocontenido — sin internet tras la instalación.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-5 flex gap-4 items-center">
+                    <span class="text-2xl font-extrabold cian-400-fijo leading-none w-6 shrink-0">2</span>
+                    <div>
+                        <h3 class="font-bold slate-300-fijo mb-1 text-sm">Selecciona el Modo: Contraseña o Frase</h3>
+                        <p class="slate-500-fijo text-xs">Elige el <strong>generador de contraseñas seguras</strong> basado en CSPRNG o el <strong>generador de frases Diceware.</strong> Ambos usan el mismo núcleo criptográfico.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-5 flex gap-4 items-center">
+                    <span class="text-2xl font-extrabold cian-400-fijo leading-none w-6 shrink-0">3</span>
+                    <div>
+                        <h3 class="font-bold slate-300-fijo mb-1 text-sm">Configura la Complejidad y Verifica la Entropía</h3>
+                        <p class="slate-500-fijo text-xs">Activa mayúsculas, minúsculas, números y símbolos. El medidor de entropía muestra la fortaleza exacta en bits en tiempo real. Apunta a más de 100 bits para una <strong>contraseña segura</strong> Inquebrantable.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-5 flex gap-4 items-center">
+                    <span class="text-2xl font-extrabold cian-400-fijo leading-none w-6 shrink-0">4</span>
+                    <div>
+                        <h3 class="font-bold slate-300-fijo mb-1 text-sm">Copia o Transfiere por Código QR</h3>
+                        <p class="slate-500-fijo text-xs">El portapapeles se borra automáticamente tras el uso (se borrará en 30s). O escanea el QR en memoria para transferir la <strong>contraseña segura</strong> a tu móvil sin ninguna red.</p>
+                    </div>
+                </div>
+                <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-5 flex gap-4 items-center">
+                    <span class="text-2xl font-extrabold cian-400-fijo leading-none w-6 shrink-0">5</span>
+                    <div>
+                        <h3 class="font-bold slate-300-fijo mb-1 text-sm">Cierra la App — Todo Se Borra</h3>
+                        <p class="slate-500-fijo text-xs">Todos los datos de sesión en RAM volátil son destruidos permanentemente. Sin evidencia forense en tu dispositivo Windows.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="max-w-4xl mx-auto px-6 py-8 mb-10">
+            <h2 class="text-2xl font-bold cian-400-fijo mb-8 text-center">Generador de Contraseñas Seguras — Preguntas Frecuentes</h2>
+            <div class="bg-slate-900/50 p-6 rounded-2xl border border-slate-800">
+                <div class="space-y-6">
+                    <div class="border-b border-slate-800 pb-6">
+                        <h3 class="text-base font-bold mb-2 slate-300-fijo">¿Por qué usar un generador de contraseñas seguras que funcione offline?</h3>
+                        <p class="slate-500-fijo text-sm leading-relaxed">Las herramientas web enrutan tu <strong>contraseña</strong> generada a través de infraestructura remota, creando exposición a nivel de red, servidor y navegador. Un <strong>generador de contraseñas seguras</strong> 100% offline elimina los tres simultáneamente. Shanbit además evita la persistencia del portapapeles y el historial del navegador — superficies de ataque que ningún <strong>generador de contraseñas</strong> online puede abordar por diseño.</p>
+                    </div>
+                    <div class="border-b border-slate-800 pb-6">
+                        <h3 class="text-base font-bold mb-2 slate-300-fijo">¿Cómo funciona Shanbit como generador de contraseñas seguras?</h3>
+                        <p class="slate-500-fijo text-sm leading-relaxed">Shanbit usa el módulo <code>secrets</code> de Python (CSPRNG a nivel del SO) para generar cada carácter en tu <strong>contraseña segura</strong>. Luego aplica la Entropía de Shannon — E = L × log₂(R) — para calcular la fortaleza verificable en bits. Una <strong>contraseña segura</strong> por encima de 100 bits es computacionalmente inviable de descifrar con hardware moderno o futuro.</p>
+                    </div>
+                    <div class="border-b border-slate-800 pb-6">
+                        <h3 class="text-base font-bold mb-2 slate-300-fijo">¿Shanbit incluye un generador de frases?</h3>
+                        <p class="slate-500-fijo text-sm leading-relaxed">Sí. El generador de frases usa el método Diceware con listas de palabras en inglés y español. Cada palabra es seleccionada por <code>secrets.choice</code> (CSPRNG) — estadísticamente independiente de todas las selecciones anteriores. Una frase de 6 palabras proporciona ~287 bits de entropía.</p>
+                    </div>
+                    <div class="border-b border-slate-800 pb-6">
+                        <h3 class="text-base font-bold mb-2 slate-300-fijo">¿Cuál es la diferencia entre una contraseña y una frase de contraseña?</h3>
+                        <p class="slate-500-fijo text-sm leading-relaxed">Una <strong>contraseña segura</strong> maximiza la entropía por carácter usando el pool completo de símbolos. Una frase de contraseña sacrifica la densidad de caracteres por la memorabilidad humana — una frase Diceware de 6 palabras alcanza ~287 bits mientras sigue siendo posible de memorizar. Usa contraseñas para gestores de credenciales; usa frases para credenciales que debes escribir de memoria. El <strong>generador de claves</strong> de Shanbit soporta ambas.</p>
+                    </div>
+                    <div class="border-b border-slate-800 pb-6">
+                        <h3 class="text-base font-bold mb-2 slate-300-fijo">¿Es esta la herramienta de privacidad más segura para Windows?</h3>
+                        <p class="slate-500-fijo text-sm leading-relaxed">Shanbit es una herramienta de <strong>seguridad y privacidad</strong> dedicada con una política estricta de solo RAM. Ningún otro <strong>generador de contraseñas</strong> para Windows combina entropía CSPRNG, fortaleza de Shannon verificable, generador de frases Diceware, transferencia QR en memoria y borrado de portapapeles a nivel de hilo — con cero dependencias de red.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-base font-bold mb-2 slate-300-fijo">¿Cómo funciona la transferencia QR offline?</h3>
+                        <p class="slate-500-fijo text-sm leading-relaxed">Shanbit renderiza tu <strong>contraseña segura</strong> o frase como un código QR a partir de una cadena Base64 volátil construida completamente en RAM. Escanea con la cámara de tu móvil — sin app complementaria necesaria. El payload nunca se escribe en disco y se destruye al cerrar la ventana.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- E-E-A-T -->
+        <section class="max-w-3xl mx-auto px-6 py-8 border-t border-slate-800 mb-2">
+            <h2 class="text-xl font-bold cian-400-fijo mobile-left mb-4">Desarrollado por PyBloSoft</h2>
+            <p class="slate-400-fijo text-sm leading-relaxed mb-4">
+                PyBloSoft es una empresa de software independiente que construye herramientas de <strong>software</strong> para Windows. Cada decisión de diseño en Shanbit — CSPRNG sobre PRNG estándar, borrado de portapapeles a nivel de hilo, Diceware para el <strong>generador de claves</strong>, historial solo en RAM — refleja experiencia en programación de sistemas para Windows. Publicamos herramientas que nosotros mismos usamos.
+            </p>
+            <p class="slate-400-fijo text-sm leading-relaxed">
+                Sin telemetría. Sin analítica. Sin nube. Nuestra filosofía de <strong>generador de contraseñas seguras</strong>: si tus datos pueden salir del dispositivo, la herramienta ya ha fallado en su propósito principal.
+            </p>
+        </section>
+
+        <!-- ============================================================
+            ZONA 3 — CIERRE PERSUASIVO (20%)
+            Objetivo: usuarios indecisos. Anclar la decisión.
+        ============================================================ -->
+        <section class="max-w-3xl mx-auto px-6 py-12 text-center">
+            <div class="bg-slate-900/70 border border-slate-700 rounded-2xl p-10">
+                <p class="text-xs uppercase tracking-widest slate-500-fijo mb-6">La diferencia fundamental</p>
+                <blockquote class="text-2xl md:text-3xl font-bold slate-200 leading-snug mb-6">
+                    "Los <strong class="cian-400-fijo">generadores de contraseñas</strong> gratuitos online optimizan para el tráfico.<br>
+                    Shanbit optimiza para la <strong class="cian-400-fijo">privacidad</strong>."
+                </blockquote>
+                <p class="slate-400-fijo text-sm leading-relaxed max-w-xl mx-auto mb-6">
+                    Todo <strong>generador de contraseñas </strong> gratuito online necesita que visites su página. Esa visita es el producto. Tu tráfico, tu patrón de comportamiento — todo monetizable. Shanbit no tiene modelo de tráfico. Sin anuncios. Sin analítica. Lo único que hace es <strong>generar una contraseña segura</strong> criptográficamente en tu máquina local, y luego olvidar que ocurrió.
+                </p>
+                <p class="slate-400-fijo text-sm leading-relaxed max-w-xl mx-auto mb-10">
+                    Si eso suena como la herramienta de <strong>privacidad</strong> que has estado buscando, está disponible ahora en la Microsoft Store para Windows 10 y Windows 11.
+                </p>
+                <a href="https://www.microsoft.com/store/apps/9NR12VDV9NM5" target="_blank" rel="noopener" class="transition-transform hover:scale-105 inline-block">
+                    <img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Download Shanbit Random Password Generator from Microsoft Store" class="h-14 mx-auto">
+                </a>
+            </div>
+            <p class="cian-500-fijo text-center font-medium italic text-xs mt-16 opacity-80">
+                Nota: La interfaz de la app está disponible en inglés y español.
+            </p>
+        </section>
+
+        <footer class="py-12 border-t border-slate-800 text-center slate-600-fijo">
+            <div class="text-xs tracking-widest uppercase mb-2">
+                Seguro y Offline — Generador de Contraseñas Seguras para Windows
+            </div>
+            <div class="text-sm">
+                © 2026 <strong>PyBloSoft</strong> | 
+                <a href="../privacy.html" class="hover-cian transition-colors">Política de Privacidad</a> | 
+                <a href="mailto:support@pyblosoft.com" class="hover-cian transition-colors">Soporte Técnico</a>
+            </div>
+        </footer>
+
+    </main>
+</body>
+</html>

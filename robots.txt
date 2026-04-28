@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+
+# Sitemaps para guiar a los buscadores en todos los idiomas
+Sitemap: https://pyblosoft.com/sitemap.xml
+Sitemap: https://pyblosoft.com/es/sitemap.xml
