@@ -7,6 +7,12 @@ Página de marketing de **Shanbit**, el generador de contraseñas offline de PyB
 | Español | `https://pyblosoft.com/es/` | *"generador de contraseñas seguras"*, *"generador de claves"* |
 | Inglés | `https://pyblosoft.com/` | *"random password generator"*, *"strong password generator"*, *"passphrase generator"*, *"offline password generator"* |
 
+<p align="center">
+    <a href="https://pyblosoft.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Ver%20sitio-pyblosoft.com-0ea5e9?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Ver sitio">
+    </a>
+</p>
+
 ---
 
 ## Estructura de la página
