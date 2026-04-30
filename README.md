@@ -38,7 +38,7 @@ Para indecisos. Bloque de diferenciación con cita, segundo CTA a Microsoft Stor
 - **Schema markup:** `SoftwareApplication`, `Organization`, `HowTo`, `FAQPage`, `BreadcrumbList`.
 - **AEO (Answer Engine Optimization):** bloque "¿Qué es Shanbit?" y FAQ diseñados para respuestas directas en buscadores con IA.
 - **Hreflang:** `en` / `es` / `x-default` configurados para versión bilingüe.
-- **GTM:** carga diferida 1 segundo después del evento `load` para no bloquear LCP.
+- **GTM:** se carga al primer `scroll` del usuario para no bloquear LCP.
 - **Canonical:** apunta a `/es/` para evitar duplicados.
 
 ---

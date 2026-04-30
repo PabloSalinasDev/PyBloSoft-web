@@ -2,15 +2,12 @@
 <html lang="en" class="dark">
 <head>
     <script>
-            window.addEventListener('load', function() {
-                setTimeout(function() {
-                    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                    })(window,document,'script','dataLayer','GTM-PFBRGDL6');
-                }, 1000); 
-            });
+            window.addEventListener('scroll', function() {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-PFBRGDL6');}, { once: true });
         </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +19,7 @@
     <title>Privacy Policy | Shanbit</title>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" href="/assets/Random-Password-Generator.png" sizes="512x512">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body class="bg-slate-950 font-sans antialiased">
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFBRGDL6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

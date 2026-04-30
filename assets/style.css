@@ -204,7 +204,6 @@ body {
   color: transparent !important;
   -webkit-text-fill-color: transparent !important;
   text-shadow: 0 0 0 rgba(248, 250, 252, 0.99) !important;
-  transform: translateZ(0);
 }
 
 nav {
@@ -214,7 +213,6 @@ nav {
   position: sticky;
   top: 0;
   z-index: 50;
-  transform: translateZ(0);
 }
 
 .feature-card {
@@ -225,13 +223,14 @@ nav {
   display: flex;
   flex-direction: column;
   height: 100%;
-  transform: translateZ(0);
   overflow: hidden;
 }
 
-.feature-card:hover {
-  border-color: #22d3ee;
-  transform: translateY(-2px) translateZ(0);
+@media (hover: hover) {
+  .feature-card:hover {
+    border-color: #22d3ee;
+    transform: translateY(-2px);
+  }
 }
 
 .feature-card ul {
